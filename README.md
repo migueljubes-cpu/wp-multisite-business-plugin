@@ -12,11 +12,11 @@ screenshots/2.png
  
 ## Claude AI Integration
  
-![Claudeots/3.png
+!creenshots/3.png
  
 ## Odoo ERP Integration
  
-screenshots/4.png
+![Oeenshots/4.png
  
 ## Features
  
