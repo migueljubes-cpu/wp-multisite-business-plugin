@@ -4,11 +4,11 @@ Advanced WordPress Multisite plugin that centralizes WooCommerce orders, custome
  
 ## Control Panel
  
-screenshots/1.png
+![Controlts/1.png
  
 ## Marketing Analytics
  
-screenshots/2.png
+!creenshots/2.png
  
 ## Claude AI Integration
  
