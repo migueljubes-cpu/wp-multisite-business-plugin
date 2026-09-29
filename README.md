@@ -3,21 +3,21 @@ Markdown
  
 Advanced WordPress Multisite plugin that centralizes WooCommerce orders, customer management, marketing analytics, Gmail integration, Odoo ERP, AI services and internal notes into a single dashboard.
  
-## Dashboard
+## Control Panel
  
 screenshots/1.png
  
-## Customers
+## Marketing Analytics
  
-![Customers/2.png
+![Marketing/2.png
  
-## Orders
+## Claude AI Integration
  
-![Ordersots/3.png
+!creenshots/3.png
  
-## Marketing
+## Odoo ERP Integration
  
-screenshots/4.png
+![Odoo ERPs/4.png
  
 ## Features
  
