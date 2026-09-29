@@ -2,23 +2,23 @@
  
 Advanced WordPress Multisite plugin that centralizes WooCommerce orders, customer management, marketing analytics, Gmail integration, Odoo ERP, AI services and internal notes into a single dashboard.
  
-## Control Panel
+# Capturas
  
-![Controlts/1.png
+### Dashboard
  
-## Marketing Analytics
+screenshots/1.png
  
-!creenshots/2.png
+### Marketing
  
-## Claude AI Integration
+screenshots/2.png
  
-![Claudeots/3.png
+### Claude AI
  
-## Odoo ERP Integration
+![Claude](screenshots/3.png ERP
  
-screenshots/4.png
+![Oeenshots/4.png
  
-## Features
+# Features
  
 - WooCommerce Management
 - Customer Management
