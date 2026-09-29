@@ -1,0 +1,29 @@
+# Credenciales Google OAuth
+api/client_secret.json
+api/gmail-token.json
+
+# Credenciales GA4 / Search Console
+ga4/*.json
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# PHP dependencies
+vendor/
+
+# Node dependencies
+node_modules/
+
+# Archivos temporales
+*.tmp
+*.bak
+``

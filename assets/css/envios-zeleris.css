@@ -1,0 +1,143 @@
+/* ============================================================
+   ZELERIS — Estilos específicos
+   ============================================================ */
+
+.ps-zeleris-wrapper {
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #e3e3e3;
+}
+
+.ps-zeleris-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #2ecc71;
+}
+
+/* ------------------------------
+   BOTONES DE MODO
+------------------------------ */
+
+.ps-zeleris-mode {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.ps-zeleris-btn {
+    padding: 10px 18px;
+    background: #f2f2f2;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.ps-zeleris-btn.active {
+    background: #2ecc71;
+    color: #fff;
+}
+
+/* ------------------------------
+   SECCIONES
+------------------------------ */
+
+.ps-zeleris-section {
+    display: none;
+}
+
+.ps-zeleris-section.active {
+    display: block;
+}
+
+/* ------------------------------
+   FORMULARIOS
+------------------------------ */
+
+.ps-zeleris-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.ps-zeleris-form label {
+    font-weight: 600;
+    color: #333;
+}
+
+.ps-zeleris-form input,
+.ps-zeleris-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.ps-zeleris-inline {
+    display: flex;
+    gap: 10px;
+}
+
+/* ------------------------------
+   ACCIONES
+------------------------------ */
+
+.ps-zeleris-actions {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+/* ------------------------------
+   RESULTADOS
+------------------------------ */
+
+.ps-zeleris-resultados {
+    margin-top: 25px;
+    padding: 15px;
+    background: #fafafa;
+    border-radius: 8px;
+    border: 1px solid #e3e3e3;
+}
+
+.ps-zeleris-info {
+    color: #777;
+    font-style: italic;
+}
+
+/* ------------------------------
+   MODAL DETALLES
+------------------------------ */
+
+#ps-zeleris-modal {
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+
+#ps-zeleris-modal .ps-modal-content {
+    background: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    width: 70%;
+    border-radius: 10px;
+    position: relative;
+}
+
+#ps-zeleris-modal .ps-modal-close {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}

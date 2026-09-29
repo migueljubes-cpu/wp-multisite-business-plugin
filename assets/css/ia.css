@@ -1,0 +1,153 @@
+/* ============================================================
+   IA — ESTILOS PROFESIONALES DEL MÓDULO CLAUDE
+   ============================================================ */
+
+.ps-ia-panel {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* ------------------------------
+   ENCABEZADO
+------------------------------ */
+
+.ps-ia-header h2 {
+    margin: 0;
+    font-size: 26px;
+    font-weight: 600;
+    color: #222;
+}
+
+.ps-ia-desc,
+.ps-ia-subtitle {
+    margin-top: 6px;
+    font-size: 15px;
+    color: #555;
+}
+
+/* ------------------------------
+   LAYOUT DOS COLUMNAS
+------------------------------ */
+
+.ps-ia-layout {
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.ps-ia-left {
+    flex: 1;
+}
+
+.ps-ia-right {
+    flex: 1;
+    background: #fafafa;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* ------------------------------
+   TEXTAREA
+------------------------------ */
+
+.ps-ia-label {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    display: block;
+    color: #333;
+}
+
+.ps-ia-textarea {
+    width: 100%;
+    height: 180px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
+    resize: vertical;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.ps-ia-textarea:focus {
+    border-color: #0073aa;
+}
+
+/* ------------------------------
+   BOTÓN
+------------------------------ */
+
+.ps-ia-btn,
+.ps-ia-button {
+    margin-top: 12px;
+    padding: 12px 20px;
+    background: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.ps-ia-btn:hover,
+.ps-ia-button:hover {
+    background: #005f8c;
+}
+
+/* ------------------------------
+   LOADER / STATUS
+------------------------------ */
+
+.ps-ia-status {
+    margin-top: 12px;
+    padding: 10px;
+    background: #f0f8ff;
+    border: 1px solid #cce6ff;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #005f8c;
+}
+
+/* ------------------------------
+   RESPUESTA IA
+------------------------------ */
+
+.ps-ia-output {
+    white-space: pre-wrap;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+    margin-top: 10px;
+}
+
+.ps-ia-placeholder {
+    color: #777;
+    font-style: italic;
+}
+
+.ps-ia-reply {
+    font-size: 15px;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* ------------------------------
+   ERRORES
+------------------------------ */
+
+.ps-ia-error {
+    color: #b30000;
+    background: #ffecec;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ffb3b3;
+    font-size: 14px;
+}

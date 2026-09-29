@@ -1,0 +1,255 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* CONTENEDOR GENERAL */
+.panel-frame {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* CUADRO PRINCIPAL (COLOR OFICIAL) */
+.panel-header-box {
+  border: 18px solid #d72779;   /* color oficial */
+  border-radius: 40px;
+  padding-top: 150px;           /* más espacio para el logo */
+  padding-bottom: 70px;         /* más espacio para los botones */
+  box-sizing: border-box;
+  position: relative;
+  background: #ffffff;
+}
+
+/* LOGO AJUSTADO */
+.panel-logo-top {
+  position: absolute;
+  top: -10px;                   /* baja un poco más */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
+  z-index: 999;
+}
+
+/* PESTAÑAS */
+.panel-header-bar {
+  display: flex;
+  justify-content: center;
+  gap: 18px;                    /* botones más juntos */
+  margin-top: 45px;             /* baja las pestañas */
+}
+
+/* BOTONES */
+.panel-tab-btn {
+  background: #2b0030;
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 16px 30px;           /* botones más anchos */
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+/* HOVER CON COLOR OFICIAL */
+.panel-tab-btn:hover {
+  background: #d72779;
+}
+
+/* BOTÓN ACTIVO */
+.panel-tab-btn.active {
+  background: #d72779;
+}
+
+/* CONTENIDO */
+.panel-content-wrapper {
+  margin-top: 40px;
+}
+
+.panel-content {
+  display: none;
+}
+
+.active-content {
+  display: block;
+}
+
+/* TITULOS DE SECCIÓN */
+.panel-section-title {
+  font-size: 26px;
+  color: #d72779;               /* color oficial */
+  margin-bottom: 10px;
+}
+
+/* MODAL */
+.panel-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  z-index: 9999;
+}
+
+.panel-modal-content {
+  background: #fff;
+  width: 600px;
+  max-width: 90%;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 12px;
+  position: relative;
+}
+
+#panel-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* LIBRETA */
+.punk-notes-btn {
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 112px;                 /* un poco más grande */
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 99999;
+}
+
+.punk-notes-btn img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+/* PERRO FLOC */
+.punk-floc-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 170px;                 /* un poco más grande */
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 99999;
+}
+
+.punk-floc-btn img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  pointer-events: none;
+}
+/* BOTONES PEQUEÑOS DEL PANEL */
+.panel-btn-small {
+  background: #d72779;          /* color oficial */
+  color: #fff;
+  border: none;
+  border-radius: 999px;         /* redondo */
+  padding: 10px 22px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all .2s ease;
+  display: inline-block;
+  margin: 4px 0;
+}
+
+/* HOVER */
+.panel-btn-small:hover {
+  background: #b81f63;          /* tono más oscuro */
+  transform: scale(1.05);       /* efecto suave */
+}
+
+/* CONTENIDO DEL MODAL */
+#panel-modal-body h3 {
+  color: #d72779;
+  margin-bottom: 10px;
+}
+
+#panel-modal-body h4 {
+  margin-top: 20px;
+  color: #2b0030;
+}
+
+#panel-modal-body p {
+  font-size: 15px;
+  margin: 4px 0;
+}
+
+.pedido-item {
+  background: #f7f7f7;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.ordenable {
+    cursor: pointer;
+    user-select: none;
+}
+
+.flechas {
+    font-size: 12px;
+    opacity: 0.6;
+    margin-left: 4px;
+}
+
+.ordenable:hover .flechas {
+    opacity: 1;
+}
+/* MODAL GLOBAL DEL PANEL */
+.panel-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+}
+
+.panel-modal.open {
+    display: flex;
+}
+
+.panel-modal-content {
+    background: #fff;
+    padding: 20px;
+    width: 500px;
+    max-width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.panel-modal-close {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    float: right;
+    cursor: pointer;
+}
+

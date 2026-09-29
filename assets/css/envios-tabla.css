@@ -1,0 +1,49 @@
+/* ============================================================
+   TABLAS — Resultados y Historial
+   ============================================================ */
+
+.ps-zeleris-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.ps-zeleris-table th {
+    background: #2ecc71;
+    color: #fff;
+    padding: 12px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.ps-zeleris-table td {
+    padding: 10px;
+    border-bottom: 1px solid #e3e3e3;
+    font-size: 14px;
+}
+
+.ps-zeleris-table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.ps-zeleris-table tr:hover {
+    background: #eefaf1;
+}
+
+.ps-zeleris-detalle {
+    background: #3498db;
+    color: #fff;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: 0.2s;
+}
+
+.ps-zeleris-detalle:hover {
+    background: #2980b9;
+}
